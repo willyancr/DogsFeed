@@ -67,7 +67,7 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 10rem;
+  top: 9rem;
   right: 1rem;
   animation: scaleUp .5s ease;
   display: none;
@@ -103,5 +103,13 @@
   .mobileMenu{
     display: block;
     z-index: 100;
+  }
+  .title{
+    font-size: 1.9rem;
+    letter-spacing: 0;
+
+  }
+  .title span{
+    top: 20px;
   }
 }
