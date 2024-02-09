@@ -46,7 +46,6 @@
   left: -7px;
   z-index: -1;
 }
-
 .modalViews {
   display: flex;
   align-items: center;
@@ -106,7 +105,6 @@
   transform: scale(1.3);
   transition: transform 0.2s ease;
 }
-
 .modalSendMsg i{
   color: #fb1;
   cursor: pointer;
@@ -118,16 +116,30 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 40rem) {
   .modalContainer{
     grid-template-columns: minmax(20rem, 40rem);
     grid-template-rows: auto;
-    height: auto;
+    /* height: auto; */
     max-width: calc(100vh - 4rem);
     overflow-y: auto;
   }
   .modalImg{
     grid-row: 1;
   }
-  
+  .modalForm{
+    padding: 1rem;
+  }
+  .modalSendMsg{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .modalSendMsg textarea{
+    width: 14rem;
+  }
+  .modalViews {
+    width: 14rem;
+    margin-bottom: 1rem;
+  }
 }
