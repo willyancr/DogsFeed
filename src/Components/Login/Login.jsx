@@ -85,9 +85,9 @@ const Login = () => {
           <p>Perdeu a Senha?</p>
         </Link>
 
-        <h1 className="title">
+        <h2 className="title">
           <span></span>Cadastre-se
-        </h1>
+        </h2>
         <p style={{ marginBottom: '1rem' }}>
           Ainda não possui conta? Cadastre-se no site.
         </p>

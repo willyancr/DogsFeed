@@ -40,7 +40,7 @@ const Register = () => {
   }
 
   return (
-    <section className="login">
+    <section className="login loginRegisterMobile">
       <Head title="Cadastro" />
       <div>
         <img

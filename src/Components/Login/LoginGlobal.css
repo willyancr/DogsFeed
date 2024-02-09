@@ -42,7 +42,17 @@
     display: none;
   }
   .loginForm{
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-left: 2rem;
+  }
+  .loginForm Input{
+    width: 100%;
+  }
+  .loginRegisterMobile{
+    margin-top: -4rem;
+  }
+  .loginLostPasswordMobile{
+    margin-top: -8rem;
+
   }
 }

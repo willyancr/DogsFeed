@@ -10,3 +10,9 @@
 .footer span i{
   color: black;
 }
+
+@media screen and (max-width: 40rem) {
+  .footer{
+    padding: 1rem;
+  }
+}

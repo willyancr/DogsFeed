@@ -35,7 +35,7 @@ const LostPassword = () => {
     }
   }
   return (
-    <section className="login">
+    <section className="login loginLostPasswordMobile">
       <Head title="Perdeu a senha?" />
       <div>
         <img
