@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 1024px) {
   .modalContainer{
     grid-template-columns: minmax(20rem, 40rem);
     grid-template-rows: auto;
